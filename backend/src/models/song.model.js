@@ -6,10 +6,10 @@ const songSchema = new mongoose.Schema(
 			type: String,
 			required: true,
 		},
-		artist: {
+		artist: { // author
 			type: String,
 			required: true,
-		},
+		}, //add book pdf 
 		imageUrl: {
 			type: String,
 			required: true,

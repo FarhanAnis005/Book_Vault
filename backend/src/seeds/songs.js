@@ -6,10 +6,10 @@ config();
 
 const songs = [
 	{
-		title: "Stay With Me",
-		artist: "Sarah Mitchell",
-		imageUrl: "/cover-images/1.jpg",
-		audioUrl: "/songs/1.mp3",
+		title: "Stay With Me",//harry potter 1
+		artist: "Sarah Mitchell", // jk R
+		imageUrl: "/cover-images/1.jpg", //hp1.jpg
+		audioUrl: "/songs/1.mp3", //hp1.mp3
 		duration: 46, // 0:46
 	},
 	{
