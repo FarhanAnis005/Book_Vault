@@ -1,9 +1,9 @@
-<h1 align="center">Realtime Spotify Application ✨</h1>
+<h1 align="center">Book Vault ✨</h1>
 
 
--   🎸 Listen to music, play next and previous songs
+-   🎸 Listen to audiobooks
 -   🔈 Update the volume with a slider
--   🎧 Admin dashboard to create albums and songs
+-   🎧 Admin dashboard to create readlists and books
 -   💬 Real-time Chat App integrated into Spotify
 -   👨🏼‍💼 Online/Offline status
 -   👀 See what other users are listening to in real-time
