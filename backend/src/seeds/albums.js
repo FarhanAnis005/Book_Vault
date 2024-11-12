@@ -77,7 +77,7 @@ const seedDatabase = async () => {
 		// Create albums with references to song IDs
 		const albums = [
 			{
-				title: "Harry porter",
+				title: "Harry Potter",
 				artist: "JK Rowling",
 				imageUrl: "/albums/fantasy.jpg", //done
 				releaseYear: 1997-2007,
