@@ -16,24 +16,24 @@ const seedDatabase = async () => {
 		// First, create all songs
 		const createdSongs = await Song.insertMany([
 			{
-				title: "Harry Potter and the Philosopher's indigo",
+				title: "Harry Potter and the Philosopher's Stone",
 				artist: "J.K. Rowling",
 				imageUrl: "/cover-images/harry potter part -1 cover page.jpg",
-				audioUrl: "/songs/Harrypotter part-1 audio.mp3",
-				duration: 58,
+				audioUrl: "/songs/harry porter part-1 audio.mp3",
+				duration: 52,
 			  },
 			  {
 				title: "Harry Potter and the Chamber of Secrets",
 				artist: "J.K. Rowling",
 				imageUrl: "/cover-images/harry porter part -2 cover page.jpg",
-				audioUrl: "/songs/Harrypotter part-2 audio.mp3",
-				duration: 112,
+				audioUrl: "/songs/harry porter part-2 audio.mp3",
+				duration: 50,
 			  },
 			  {
 				title: "Harry Potter and the Prisoner of Azkaban",
 				artist: "J.K. Rowling",
 				imageUrl: "/cover-images/harry porter part -3 cover page.jpg",
-				audioUrl: "/songs/Harrypotter part-3 audio.mp3",
+				audioUrl: "/songs/harry porter part-3 audio.mp3",
 				duration: 97,
 			  },
 			  {
