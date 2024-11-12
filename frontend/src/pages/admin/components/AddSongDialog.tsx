@@ -89,9 +89,9 @@ const AddSongDialog = () => {
         audio: null,
         image: null,
       });
-      toast.success("Song added successfully");
+      toast.success("Book added successfully");
     } catch (error: any) {
-      toast.error("Failed to add song: " + error.message);
+      toast.error("Failed to add Book: " + error.message);
     } finally {
       setIsLoading(false);
     }
@@ -102,15 +102,15 @@ const AddSongDialog = () => {
       <DialogTrigger asChild>
         <Button className="bg-emerald-500 hover:bg-emerald-600 text-black">
           <Plus className="mr-2 h-4 w-4" />
-          Add Song
+          Add Book
         </Button>
       </DialogTrigger>
 
       <DialogContent className="bg-indigo-900 border-indigo-700 max-h-[80vh] overflow-auto">
         <DialogHeader>
-          <DialogTitle>Add New Song</DialogTitle>
+          <DialogTitle>Add New Book</DialogTitle>
           <DialogDescription>
-            Add a new song to your music library
+            Add a new book to your library
           </DialogDescription>
         </DialogHeader>
 
@@ -156,7 +156,7 @@ const AddSongDialog = () => {
                     <Upload className="h-6 w-6 text-indigo-400" />
                   </div>
                   <div className="text-sm text-indigo-400 mb-2">
-                    Upload artwork
+                    Upload book cover
                   </div>
                   <Button variant="outline" size="sm" className="text-xs">
                     Choose File
@@ -184,7 +184,7 @@ const AddSongDialog = () => {
 
           {/* other fields */}
           <div className="space-y-2">
-            <label className="text-sm font-medium">Title</label>
+            <label className="text-sm font-medium">Book Name</label>
             <Input
               value={newSong.title}
               onChange={(e) =>
@@ -195,7 +195,7 @@ const AddSongDialog = () => {
           </div>
 
           <div className="space-y-2">
-            <label className="text-sm font-medium">Artist</label>
+            <label className="text-sm font-medium">Author</label>
             <Input
               value={newSong.artist}
               onChange={(e) =>
@@ -219,7 +219,7 @@ const AddSongDialog = () => {
           </div>
 
           <div className="space-y-2">
-            <label className="text-sm font-medium">Album (Optional)</label>
+            <label className="text-sm font-medium">Collection (Optional)</label>
             <Select
               value={newSong.album}
               onValueChange={(value) =>

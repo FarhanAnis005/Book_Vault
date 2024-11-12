@@ -2,6 +2,7 @@ import { useMusicStore } from "@/stores/useMusicStore";
 import FeaturedGridSkeleton from "@/components/skeletons/FeaturedGridSkeleton";
 import PlayButton from "./PlayButton";
 
+
 const FeaturedSection = () => {
   const { isLoading, featuredSongs, error } = useMusicStore();
 
@@ -23,8 +24,10 @@ const FeaturedSection = () => {
             className="w-16 sm:w-20 h-16 sm:h-20 object-cover flex-shrink-0"
           />
           <div className="flex-1 p-4">
-            <p className="font-medium truncate">{song.title}</p>
-            <p className="text-sm text-indigo-400 truncate">{song.artist}</p>
+            <div className="w-32 overflow-hidden relative">
+              <p className="font-medium whitespace-nowrap animate-marquee">{song.title}</p>
+            </div>
+              <p className="text-sm text-indigo-400 truncate">{song.artist}</p>
           </div>
           <PlayButton song={song} />
         </div>

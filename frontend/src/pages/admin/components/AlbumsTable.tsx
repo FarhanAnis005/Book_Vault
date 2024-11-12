@@ -24,9 +24,9 @@ const AlbumsTable = () => {
         <TableRow className="hover:bg-indigo-800/50">
           <TableHead className="w-[50px]"></TableHead>
           <TableHead>Title</TableHead>
-          <TableHead>Artist</TableHead>
+          <TableHead>Author</TableHead>
           <TableHead>Release Year</TableHead>
-          <TableHead>Songs</TableHead>
+          <TableHead>Books</TableHead>
           <TableHead className="text-right">Actions</TableHead>
         </TableRow>
       </TableHeader>

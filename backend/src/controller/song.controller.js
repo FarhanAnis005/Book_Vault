@@ -11,7 +11,7 @@ export const getAllSongs = async (req, res, next) => {
   }
 };
 
-export const getFeatuindigoSongs = async (req, res, next) => {
+export const getfeaturedSongs = async (req, res, next) => {
   try {
     // fetch 6 random songs using mongodb's aggregation pipeline
     const songs = await Song.aggregate([

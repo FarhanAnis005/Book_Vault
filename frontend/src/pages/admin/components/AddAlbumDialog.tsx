@@ -116,7 +116,7 @@ const AddAlbumDialog = () => {
                 setNewAlbum({ ...newAlbum, title: e.target.value })
               }
               className="bg-indigo-800 border-indigo-700"
-              placeholder="Enter album title"
+              placeholder="Enter book collection title"
             />
           </div>
           <div className="space-y-2">
@@ -127,7 +127,7 @@ const AddAlbumDialog = () => {
                 setNewAlbum({ ...newAlbum, artist: e.target.value })
               }
               className="bg-indigo-800 border-indigo-700"
-              placeholder="Enter artist name"
+              placeholder="Enter author name"
             />
           </div>
           <div className="space-y-2">

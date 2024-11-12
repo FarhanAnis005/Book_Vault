@@ -1,7 +1,7 @@
 import { useAuthStore } from "@/stores/useAuthStore";
 import Header from "./components/Header";
 import DashboardStats from "./components/DashboardStats";
-import { Album, Music } from "lucide-react";
+import { Music } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import SongsTabContent from "./components/SongsTabContent";
 import AlbumsTabContent from "./components/AlbumsTabContent";
@@ -37,15 +37,15 @@ const AdminPage = () => {
             className="data-[state=active]:bg-indigo-700"
           >
             <Music className="mr-2 size-4" />
-            Songs
+            Books
           </TabsTrigger>
-          <TabsTrigger
+          {/* <TabsTrigger
             value="albums"
             className="data-[state=active]:bg-indigo-700"
           >
             <Album className="mr-2 size-4" />
             Albums
-          </TabsTrigger>
+          </TabsTrigger> */}
         </TabsList>
 
         <TabsContent value="songs">

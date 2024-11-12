@@ -8,21 +8,21 @@ const DashboardStats = () => {
 	const statsData = [
 		{
 			icon: ListMusic,
-			label: "Total Songs",
+			label: "Total Books",
 			value: stats.totalSongs.toString(),
 			bgColor: "bg-emerald-500/10",
 			iconColor: "text-emerald-500",
 		},
 		{
 			icon: Library,
-			label: "Total Albums",
+			label: "Total Collections",
 			value: stats.totalAlbums.toString(),
 			bgColor: "bg-violet-500/10",
 			iconColor: "text-violet-500",
 		},
 		{
 			icon: Users2,
-			label: "Total Artists",
+			label: "Total Authors",
 			value: stats.totalArtists.toString(),
 			bgColor: "bg-orange-500/10",
 			iconColor: "text-orange-500",
