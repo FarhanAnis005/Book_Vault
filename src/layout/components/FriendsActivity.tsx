@@ -101,7 +101,7 @@ const LoginPrompt = () => (
         See What Friends Are Playing
       </h3>
       <p className="text-sm text-red-400">
-        Login to discover what music your friends are enjoying right now
+        Login to discover what books your friends are enjoying right now
       </p>
     </div>
   </div>
