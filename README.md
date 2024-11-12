@@ -4,7 +4,7 @@
 -   🎸 Listen to audiobooks
 -   🔈 Update the volume with a slider
 -   🎧 Admin dashboard to create readlists and books
--   💬 Real-time Chat App integrated into Spotify
+-   💬 Real-time Chat App 
 -   👨🏼‍💼 Online/Offline status
 -   👀 See what other users are listening to in real-time
 -   📊 Aggregate data for the analytics page
